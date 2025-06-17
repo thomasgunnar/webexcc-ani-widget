@@ -2,7 +2,7 @@
   window.customComponents = window.customComponents || {};
 
   window.customComponents["sa-ds-sdk"] = {
-    props: ["accessToken", "outdialEp", "darkmode"],
+    props: ["accessToken", "outdialEp"],
     data() {
       return {
         ani: "Venter...",
