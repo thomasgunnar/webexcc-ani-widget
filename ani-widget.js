@@ -1,7 +1,8 @@
-// ani-widget.js (Webex Contact Center SDK-kompatibel komponent)
+// ani-widget.js (Webex Agent Desktop-kompatibel komponent via window.customComponents)
 
-export default {
-  name: "sa-ds-sdk",
+window.customComponents = window.customComponents || {};
+
+window.customComponents["sa-ds-sdk"] = {
   props: ["accessToken", "outdialEp", "darkmode"],
   data() {
     return {
