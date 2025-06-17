@@ -60,4 +60,7 @@
       }
     }
   };
+
+console.log("thomasgunnar sa-ds-sdk component registered via ani-widget.js");
+  
 })();
